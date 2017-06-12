@@ -24,7 +24,7 @@ namespace Hospital
         //Patient's commands
         requestForConsultation,
         myHistory,
-        myMesseges,
+        myMessages,
 
         //Doctor's commands
         addPatientHistory,
@@ -582,7 +582,7 @@ namespace Hospital
                         PrintUser(myUser);
                         Console.ForegroundColor = ConsoleColor.DarkGray;
                         Console.WriteLine("Active commands: " + (Command)2);
-                        for (int i = 3; i <= (int)Command.myMesseges; i++)
+                        for (int i = 3; i <= (int)Command.myMessages; i++)
                         {
                             if ((selected == null || selected.Possition != "Doctor") && (Command)i == Command.requestForConsultation)
                                 continue;
@@ -688,7 +688,7 @@ namespace Hospital
                         else
                             MessageBox.Show("Incorrect command.");
                         break;
-                    case Command.myMesseges:
+                    case Command.myMessages:
                         if (myUser != null && myUser.Possition == "Patient")
                         {
                             myPatient = (Patient)myUser;
@@ -762,6 +762,16 @@ namespace Hospital
                         }
                         else
                             MessageBox.Show("Incorrect command.");
+                        break;
+                    case Command.reports:
+                        if (myUser != null && myUser.Possition == "Admin")
+                        {
+                            admin.Report();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Incorrect command.");
+                        }
                         break;
                 }
                 File.WriteAllText(allPatientsPath, JsonConvert.SerializeObject(AllPatients));
