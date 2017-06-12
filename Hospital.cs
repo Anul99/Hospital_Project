@@ -45,7 +45,7 @@ namespace Hospital
     public static class Hospital
     {
         private static string allPatientsPath = @"../../AllPatients.json";
-        private static string allDoctorsPath = @"../../AllDoctorsjson.json";
+        private static string allDoctorsPath = @"../../Doctors.json";
         private static string adminPath = @"../../Admin.json";
 
 
