@@ -1,12 +1,1 @@
-﻿[
-  {
-    "CountOfUnreadMessages": 1,
-    "History": null,
-    "Login": "mane",
-    "Messages": [ ],
-    "Name": "Mane",
-    "Password": "0470cc4e7d943c459b9dfda3043eaaa1b57d245fcb1db83099b614f523840e48",
-    "Possition": "Patient",
-    "Surname": "Harutyunyan"
-  }
-]
+[{"History":null,"Messages":[{"Text":"Your request for consultation was confirmed. \nYour consultation: 12/06/2017 10:30 - 11:30\n                   Doctor:Armen Mnacakanyan (arm)","Time":"2017-06-12T08:33:02.7701175+04:00","Read":true}],"CountOfUnreadMessages":0,"Name":"Anahiht","Surname":"Martirosyan","Login":"an","Password":"ea325d761f98c6b73320e442b67f2a3574d9924716d788ddc0dbbdcaca853fe7","Possition":"Patient"},{"History":null,"Messages":[{"Text":"Your request for consultation on 12/06/2017 10:00 was refused.","Time":"2017-06-12T08:33:46.8226095+04:00","Read":true}],"CountOfUnreadMessages":0,"Name":"Mane","Surname":"Harutyunyan","Login":"mane","Password":"0470cc4e7d943c459b9dfda3043eaaa1b57d245fcb1db83099b614f523840e48","Possition":"Patient"}]

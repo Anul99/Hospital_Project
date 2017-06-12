@@ -1,0 +1,8 @@
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\bin\Debug\TestProject.exe
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\obj\Debug\TestProject.exe
+C:\Users\anahi\Desktop\New folder\TestProject\TestProject\obj\Debug\TestProject.pdb
